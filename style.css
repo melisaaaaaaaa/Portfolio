@@ -1,0 +1,45 @@
+/* navbar */
+.container .navbar .font-navbar{
+    font-weight: bold;
+    font-family: Viga;
+    font-size: 32px;
+}
+
+.link-nav-a{
+    margin-right: 32px;
+    font-family: Viga;
+}
+/* end navbar */
+
+/* HOME */
+.gambar-home{
+    border-radius: 35%;
+    width: 300px;
+}
+
+.home-text{
+    margin-top: 48px;
+    font-family: Viga;
+}
+
+.home-screen{
+    height: 500px;
+}
+
+@media (max-width: 991px) { 
+    .gambar-home{
+        width: 200px;
+        height: 200px;
+    }
+
+    .container-project{
+        margin-top: 76px !important;
+    }
+}
+/* end HOME */
+
+/* about */
+.about-container{
+    height: 500px;
+}
+/* end about */
